@@ -1,0 +1,22 @@
+{
+  "name": "Split-by-Pattern",
+  "version": "1.0.0",
+  "description": "Split the steam data into chunks of data.",
+  "main": "spliter.js",
+  "scripts": {
+    "test": "node spliter.js -p "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WinKyaw/Pattern-Match.git"
+  },
+  "keywords": [
+    "PatternMatch"
+  ],
+  "author": "Kyaw Win",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WinKyaw/Pattern-Match/issues"
+  },
+  "homepage": "https://github.com/WinKyaw/Pattern-Match"
+}
