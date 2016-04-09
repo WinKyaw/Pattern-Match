@@ -39,12 +39,8 @@ program.option('-p, --pattern <pattern>', 'String delimiter').parse(process.argv
 
 if(program.pattern) {
 	if(program.pattern.length <= 1) {
-		// if(program.pattern == ","){
-		// 	check = false;
-		// 	parseSource(program.pattern);
-		// }else{
+		
 			parseSource(program.pattern);
-		// }
 		
 	}
 } else {
